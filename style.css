@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.left-box {
+  width: 300px;
+  background-color: #eeeeee;
+  position: relative;
+  margin: auto 15px;
+  padding: 10px;
+}
+
+.center-box {
+  width: 300px;
+  background-color: #eeeeee;
+  position: relative;
+  padding: 10px;
+  margin: auto 15px;
+}
+.right-box {
+  width: 300px;
+  background-color: #eeeeee;
+  position: relative;
+  padding: 10px;
+  margin: auto 15px;
+}
+
+.step {
+  position: absolute;
+  background-color: #ff9a4b;
+  text-align: center;
+  color: #fff;
+  top: 0;
+  left: 0;
+}
+
+.text1 {
+  width: 280px;
+  margin-top: 15px;
+}
+
+.text2 {
+  width: 280px;
+  margin-top: 5px;
+}
+
+.box1-1 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.box1-2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.box1-3 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.box2 {
+  width: 280px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .left-box {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .center-box {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .right-box {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .box1-1 {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+  }
+
+  .box1-2 {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+  }
+  .box1-3 {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+  }
+
+  .text {
+    width: 250px;
+    margin: 0;
+  }
+
+  .text1 {
+    width: 100%;
+  }
+  .text2 {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .box2 {
+    width: 90%;
+  }
+}
